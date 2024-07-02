@@ -189,3 +189,34 @@ a span:nth-child(4){
 hr {
     margin-bottom: 30px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .section h2 {
+        font-size: 24px; /* 헤딩 2의 글꼴 크기 조정 */
+    }
+
+    .section p {
+        font-size: 16px; /* 문단의 글꼴 크기 조정 */
+        line-height: 1.8; /* 줄 간격 조정 */
+    }
+
+    .section h3 {
+        font-size: 18px; /* 헤딩 3의 글꼴 크기 조정 */
+    }
+
+    .project {
+        margin-bottom: 10px; /* 프로젝트 간격 줄이기 */
+    }
+
+    footer {
+        padding: 5px 0; /* 푸터 패딩 조정 */
+    }
+
+    #contact p {
+        font-size: 14px; /* 연락처 정보의 글꼴 크기 조정 */
+    }
+}

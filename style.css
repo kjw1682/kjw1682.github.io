@@ -70,7 +70,9 @@ header nav ul li a:hover {
     align-items: center;
     margin-bottom: 20px;
 }
-
+.section p {
+    color: #03e9f4;
+}
 .project {
     margin-bottom: 20px;
 }

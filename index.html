@@ -4,90 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Basic styling */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-
-header h1 {
-    float: left;
-}
-
-header nav {
-    float: right;
-    margin-top: 10px;
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-header nav ul li a:hover {
-    color: #ccc;
-}
-
-.section {
-    padding: 40px 0;
-}
-
-.section h2 {
-    margin-bottom: 20px;
-}
-
-.project {
-    margin-bottom: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>My Portfolio</h1>
+        <div class="container-header">
+            <h1>JaeWoo Kim - Portfolio</h1>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -98,43 +20,85 @@ footer {
         </div>
     </header>
 
+    <section id="top" class="section">
+        <div>
+
+        </div>
+    </section>
+
     <section id="about" class="section">
         <div class="container">
+
             <h2>About Me</h2>
-            <p>Insert your bio or description here.</p>
+            <hr>
+            <p>안녕하세요 저는 백엔드 프로그래밍 공부를 하고있는 김재우 입니다!</p><br>
+            <p>JAVA 기반 웹 프로그래밍 (Spring boot),
+            SQL, 파이썬을 활용한 머신러닝 등을 공부하고 있으며, 앞으로 더 많은 경험과 공부를 통해
+            풀스택 게발자를 목표로 하고 있습니다.</p>
+            <p>먼 길이 되겠지만 열심히 활동하여 많은 지식을 쌓아 훌륭한 개발자가 될 수 있도록 노력하겠습니다.</p>
+            <p>잘 부탁드리겠습니다!</p>
         </div>
     </section>
 
     <section id="projects" class="section">
         <div class="container">
             <h2>Projects</h2>
+            <hr>
             <div class="project">
                 <h3>Project 1</h3>
-                <p>Description of Project 1.</p>
-                <a href="https://github.com/kjw1682/Camp_Navi-project.git">캠핑내비 깃허브 주소</a>
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQsNtSHfyU3rMCehEy9petJNOASUhvVzCdZQMpFyqfqLwJ_YohL_YJmn_wmew6IveqS7hr9jYWcdh4Y/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                <p>MBC 컴퓨터 아카데미 팀프로젝트 [1]</p>
+                <a href="https://github.com/kjw1682/Camp_Navi-project.git">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    캠핑내비 깃허브 주소 >
+                </a>
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vQsNtSHfyU3rMCehEy9petJNOASUhvVzCdZQMpFyqfqLwJ_YohL_YJmn_wmew6IveqS7hr9jYWcdh4Y/pub?start=false&loop=false&delayms=3000">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    포트폴리오 보러가기 >
+                </a><br>
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQsNtSHfyU3rMCehEy9petJNOASUhvVzCdZQMpFyqfqLwJ_YohL_YJmn_wmew6IveqS7hr9jYWcdh4Y/embed?start=true&loop=true&delayms=3000" frameborder="0" width="480" height="284" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
             <div class="project">
                 <h3>Project 2</h3>
-                <p>Description of Project 2.</p>
-                <a href="https://github.com/kjw1682/FoodNavi_Project.git">푸드내비 깃허브 주소</a>
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSopmHTCUrFP4KvXa8mfS6zFVQmQW5gIw8BXxqjEK-J73IWZV70PjOAph1kf00u7EScKhZUSYYJLbvj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                <p>MBC 컴퓨터 아카데미 팀프로젝트 [2]</p>
+                <a href="https://github.com/kjw1682/FoodNavi_Project.git"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    푸드내비 깃허브 주소 >
+                </a>
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vSopmHTCUrFP4KvXa8mfS6zFVQmQW5gIw8BXxqjEK-J73IWZV70PjOAph1kf00u7EScKhZUSYYJLbvj/pub?start=false&loop=false&delayms=3000">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    포트폴리오 보러가기 >
+                </a><br>
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSopmHTCUrFP4KvXa8mfS6zFVQmQW5gIw8BXxqjEK-J73IWZV70PjOAph1kf00u7EScKhZUSYYJLbvj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="284" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
             <!-- Add more projects as needed -->
         </div>
     </section>
 
     <section id="contact" class="section">
-        <div class="container">
+        <div class="container" style="margin-bottom: 100px">
             <h2>Contact Me</h2>
-            <p>Email: your.email@example.com</p>
-            <p>Phone: +1234567890</p>
+            <hr>
+            <p>Email : dddddm90@naver.com</p>
+            <p>Phone : 010-2916-1682</p>
+            <p>Kakao : dddddm</p>
+            <p>&nbsp;</p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Your Name</p>
+            <p>&copy; By JaeWoo Kim</p>
         </div>
     </footer>
 </body>
